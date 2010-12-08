@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  font-size:13px;
+}
+
+
+.block-ting_search{
+  padding:0 5px;
+}
+#ting-search-form a{
+  color:#000;
+  text-decoration:none;
+  padding:7px;
+  display:block;
+  font-size:12px;
+} 
+
+.block-ting_search h2,
+.block-ting_search #ting-search-form .example{
+  display:none;
+}
+
+#ting-search-form #edit-keys-wrapper label{
+  position:absolute;
+  top:0;
+  font-weight:normal;
+  /*font-size:0.8em;*/
+ padding:8px;
+}
+#ting-search-form #edit-keys-wrapper{
+  margin: 0 50px 0 0;
+  
+}
+#ting-search-form #edit-keys-wrapper input{
+  width: 100%;
+  border:1px solid #cecece;
+  border-radius:0;
+  /*background: #fff;
+  background-image: none;*/
+  padding:5px;
+  margin:0;
+}
+#ting-search-form #edit-submit-1{
+  position:absolute;
+  right:0px;
+  top:0;
+  background: #f37d01;
+  color:#fff;
+  border:1px solid #cecece;
+}
+
+
+
+
+
+div.top img{
+  display:block;
+  width:100%;
+}
+
+div.top div.top_top,
+div.top div.top_bottom{
+  position:relative;
+}
+.login-btn{
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ebebeb), to(#fbfbfb));
+  position:absolute;
+  right:9.5%;
+  border:1px solid #cecece;
+  color:#000;
+  border-top:0 none;
+  padding:5px;
+  border-radius: 0 0 5px 5px;
+  display:block;
+  text-decoration: none;
+}
+.block-ting_search{
+  padding:0;
+  position:absolute;
+  top:0;
+  margin-left:21%;
+  margin-top:10px;
+  width:69%;
+}
