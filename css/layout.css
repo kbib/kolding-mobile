@@ -1,4 +1,3 @@
-@CHARSET "UTF-8";
 
 body{
   font-family: Arial, sans-serif;
@@ -6,10 +5,10 @@ body{
   font-size:13px;
 }
 
-
 .block-ting_search{
   padding:0 5px;
 }
+
 #ting-search-form a{
   color:#000;
   text-decoration:none;
@@ -43,7 +42,7 @@ body{
   padding:5px;
   margin:0;
 }
-#ting-search-form #edit-submit-1{
+#ting-search-form .form-submit{
   position:absolute;
   right:0px;
   top:0;
@@ -85,3 +84,36 @@ div.top div.top_bottom{
   margin-top:10px;
   width:69%;
 }
+
+
+/* node specific */
+
+.panel-pane .pane-content div.node{
+  margin:1em;
+}
+
+/* user pages reset */
+.page-user #user-login{
+    margin:1em;
+}
+.page-user #user-login input.form-text{
+  width:95%;
+}
+
+.profile{
+  margin:0;
+}
+.profile h4,.profile dt, .profile dd:not(.fixmenu) {
+  margin-left:1em;
+  margin-right:3em;
+}
+/*.profile dd .item-list { margin-left: -1em; }*/
+
+ 
+ 
+ 
+#drupal-messages{
+  margin:1em;
+  overflow:hidden;
+} 
+ 
