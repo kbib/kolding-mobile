@@ -138,7 +138,9 @@ div.top div.top_bottom{
  
  
 .unavailable,
-.unreservable{
+.unreservable,
+.available,
+.waiting{
   background: #F85F26;
   color:#fff;
   padding:2px;
@@ -147,16 +149,14 @@ div.top div.top_bottom{
 } 
 .available{
   background: #71BF44;
-  color:#fff;
-  padding:2px;
-  margin:5px;
-  display:inline-block;
 } 
-
+.waiting{
+  background:#cecece;
+}
 #ting-object .ting-item .available,
 #ting-object .ting-item .unavailable,
-#ting-object .ting-item .unreservable
-{
+#ting-object .ting-item .unreservable,
+#ting-object .ting-item .waiting{
   display:block;
   text-align:center;
 }
