@@ -30,7 +30,7 @@ body{
  padding:8px;
 }
 #ting-search-form #edit-keys-wrapper{
-  margin: 0 50px 0 0;
+  margin: 0 80px 0 0;
   
 }
 #ting-search-form #edit-keys-wrapper input{
@@ -39,16 +39,16 @@ body{
   border-radius:0;
   /*background: #fff;
   background-image: none;*/
-  padding:5px;
+  padding:4px;
   margin:0;
 }
 #ting-search-form .form-submit{
   position:absolute;
   right:0px;
   top:0;
-  background: #f37d01;
-  color:#fff;
-  border:1px solid #cecece;
+  /*background: #f37d01;*/
+  /*color:#fff;*/
+  /*border:1px solid #cecece;*/
 }
 
 
