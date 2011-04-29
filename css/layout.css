@@ -160,3 +160,7 @@ div.top div.top_bottom{
   display:block;
   text-align:center;
 }
+
+#ding-reservation-list-form .container-inline-date{
+  display:none;
+}
