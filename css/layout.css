@@ -164,3 +164,7 @@ div.top div.top_bottom{
 #ding-reservation-list-form .container-inline-date{
   display:none;
 }
+
+#search #edit-type-wrapper{
+  display:none;
+}
