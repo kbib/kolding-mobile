@@ -1,4 +1,3 @@
-
 body{
   font-family: Arial, sans-serif;
   margin:0;
@@ -26,19 +25,16 @@ body{
   position:absolute;
   top:0;
   font-weight:normal;
-  /*font-size:0.8em;*/
- padding:8px;
+  padding:8px;
 }
 #ting-search-form #edit-keys-wrapper{
   margin: 0 80px 0 0;
-  
+
 }
 #ting-search-form #edit-keys-wrapper input{
   width: 100%;
   border:1px solid #cecece;
   border-radius:0;
-  /*background: #fff;
-  background-image: none;*/
   padding:4px;
   margin:0;
 }
@@ -46,14 +42,7 @@ body{
   position:absolute;
   right:0px;
   top:0;
-  /*background: #f37d01;*/
-  /*color:#fff;*/
-  /*border:1px solid #cecece;*/
 }
-
-
-
-
 
 div.top img{
   display:block;
@@ -65,7 +54,7 @@ div.top div.top_bottom{
   position:relative;
 }
 .login-btn{
-    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ebebeb), to(#fbfbfb));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ebebeb), to(#fbfbfb));
   position:absolute;
   right:9.5%;
   border:1px solid #cecece;
@@ -85,7 +74,6 @@ div.top div.top_bottom{
   width:69%;
 }
 
-
 /* node specific */
 
 .node-type-article .submitted,
@@ -99,7 +87,7 @@ div.top div.top_bottom{
 
 /* user pages reset */
 .page-user #user-login{
-    margin:1em;
+  margin:1em;
 }
 .page-user #user-login input.form-text{
   width:95%;
@@ -125,18 +113,11 @@ div.top div.top_bottom{
   font-weight:bold;
 }
 
-/*.profile dd .item-list { margin-left: -1em; }*/
 
- 
- 
- 
 #drupal-messages{
-  /*margin:1em;*/
   overflow:hidden;
 } 
- 
- 
- 
+
 .unavailable,
 .unreservable,
 .available,
@@ -180,3 +161,6 @@ div.top div.top_bottom{
 .node .content .place2book a:active {
   background-position: left -60px;
 }
+#sliding-popup .popup-content { width: 100%; }
+#sliding-popup .popup-content #popup-text { margin: 0; text-align: center; width: 100%; }
+#sliding-popup .popup-content #popup-buttons { float: none; }
